@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<! UC强制全屏 
+	<meta name="full-screen" content="yes">
+	<! QQ强制全屏 
+	<meta name="x5-fullscreen" content="true">
+	<! 屏蔽百度转码 -->
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+
+	
+	<link rel="stylesheet" href="css/index.css">
+	
+	<script src="js/common.js"></script>
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/swiper.animate1.0.2.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/index.js"></script>
+
+</head>
+<body>
+<!-- 头部 -->
+	<header>
+		<div id="header">
+			<div class="header-main">
+				<div class="header-main-left">
+
+					<div class="left-select">
+						<span class="text">南京</span>
+							<ul class="left-ul">
+								<li>上海</li>
+								<li>北京</li>
+								<li>洛阳</li>
+								<li>长安</li>
+								<li>广州</li>
+								<li>徐州</li>
+								<li>滁州</li>
+								<li>拉萨</li>
+							</ul>
+					</div>
+						<img id="arrowDown" src="images/下拉图标.png">
+						<img id="arrowTop" src="images/上拉图标.png">
+				</div>
+
+			<!-- 城市切换效果 -->
+				
+
+
+				<div class="header-main-middle">
+					<input type="text" placeholder="请输入商品名、品类、或商圈…">
+					<img src="images/放大镜.png" alt="">
+				</div>
+				
+				<div class="header-main-right">
+				<img src="images/扫一扫.png" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!-- 轮播图 -->
+	<div class="banner">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" >
+			<img src="images/banner1.png">
+			</div>
+			<div class="swiper-slide"><img src="images/food1.png"></div>
+			<div class="swiper-slide"><img src="images/food2.png"></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	</div>
+	
+<!-- 菜单选项图标 -->
+	
+	<div class="menu">
+		<div class="menusub">
+			<div class="menu-one menu-img">
+				<img src="images/menu-1.png">
+				<p>美食</p>
+			</div>
+			<div class="menu-two menu-img" >
+				<img src="images/menu-2.png">
+				<p class="hotel">酒店</p>
+			</div>
+			<div class="menu-three menu-img" >
+				<img src="images/menu-3.png">
+				<p>景点</p>
+			</div>
+			<div class="menu-four menu-img" >
+				<img src="images/menu-4.png">
+				<p>休闲娱乐</p>
+			</div>
+			<div class="menu-five menu-img" >
+				<img src="images/menu-5.png">
+				<p>闪惠团购</p>
+			</div>
+			<div class="menu-six menu-img" >
+				<img src="images/menu-6.png">
+				<p>电影</p>
+			</div>
+			<div class="menu-seven menu-img" >
+				<img src="images/menu-7.png">
+				<p>度假套餐</p>
+			</div>
+			<div class="menu-eight menu-img" >
+				<img src="images/menu-8.png">
+				<p>购物</p>
+			</div>
+		</div>
+	</div>
+
+<!-- 免费体验区 -->
+	<section>
+		<div class="content_warp">
+			<div class="content_warp-bar">
+			<div>
+				<span></span>
+			</div>
+				
+				<div class="content_warp-bar-one">免费体验区</div>
+				<div class="content_warp-bar-two">距离开始|</div>
+				<div class="content_time"></div>
+				<div class="content_warp-bar-four">查看更多></div>
+			</div>
+
+			<div class="content_warp-img">
+				<div class="content_warp-img-one">
+				<img src="images/food1.png">
+				<p>冰激凌</p>
+				</div>
+				<div class="content_warp-img-two">
+				<img src="images/food2.png">
+				<p>果蔬饮料</p>
+				</div>
+				<div class="content_warp-img-three">
+				<img src="images/food3.png">
+				<p>水果拼盘</p>
+				</div>
+				<div class="content_warp-img-four">
+				<img src="images/food4.png">
+				<p>美味披萨</p>
+				</div>
+				<div class="content_warp-img-one">
+				<img src="images/food5.png">
+				<p>洗车擦车</p>
+				</div>
+				<div class="content_warp-img-two">
+				<img src="images/food6.png">
+				<p>摄影写真</p>
+				</div>
+				<div class="content_warp-img-three">
+				<img src="images/food7.png">
+				<p>台球休闲</p>
+				</div>
+				<div class="content_warp-img-four">
+				<img src="images/food8.png">
+				<p>足浴养生</p>
+				</div>
+
+			</div>
+		</div>
+
+
+<!-- 玖邦尼创富 -->
+	<div class="content_main">
+			<div class="content_main-bar">
+			<div>
+				<span></span>
+			</div>
+				
+				<div class="content_main-bar-one">玖邦尼创富</div>
+				<div class="content_main-bar-two">玖邦币购物，超值超划算</div>
+				<div class="content_main-bar-three">查看全部></div>
+			</div>
+			<div class="content_main-img">
+				<div class="content_main-img-one">
+				<img src="images/ban1.png">
+				</div>
+				<div class="content_main-img-two">
+				<img src="images/ban2.png">
+				</div>
+				<div class="content_main-img-three">
+				<img src="images/ban3.png">
+				</div>
+				<div class="content_main-img-four">
+				<img src="images/ban4.png">
+				</div>
+				<div class="content_main-img-one">
+				<img src="images/ban5.png">
+				</div>
+				<div class="content_main-img-two">
+				<img src="images/ban6.png">
+				</div>
+				<div class="content_main-img-three">
+				<img src="images/ban7.png">
+				</div>
+				<div class="content_main-img-four">
+				<img src="images/ban8.png">
+				</div>
+		</div>
+	</div>
+	
+
+	<!-- 猜你喜欢 -->
+	<div class="hobby">
+		<div class="hobby-bar">
+		<div class="hobby-bar-img">
+			<span></span>
+		</div>
+			<p class="hobby-bar-wordone">猜你喜欢</p>
+			<p class="hobby-bar-wordtwo">查看所有></p>
+		</div>
+
+
+		<div class="hobby-content">
+			<div class="hobby-content-left">
+				<img src="images/蛋糕配图.png" alt="">
+			</div>
+			<div class="hobby-content-right">
+				<div class="foodword">
+					<span class="foodname">贝贝蛋糕/蛋挞</span>
+					<span>< 1 km</span>
+				</div>
+				<div class="foodword">
+					<span>【郑州市金水区李南二街345号】</span>
+				</div>
+				<div  class="foodword">
+					<span class="red">￥49.00元 </span>
+					<span>月销量：1532份</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="hobby-content">
+			<div class="hobby-content-left">
+				<img src="images/香锅配图.png" alt="">
+			</div>
+			<div class="hobby-content-right">
+				<div class="foodword">
+					<span class="foodname">天天见面麻辣香锅</span>
+					<span>< 1 km</span>
+				</div>
+				<div class="foodword">
+					<span>【郑州市金水区李南二街345号】</span>
+				</div>
+				<div  class="foodword">
+					<span class="red">￥49.00元 </span>
+					<span>月销量：1352份</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="hobby-content">
+			<div class="hobby-content-left">
+				<img src="images/小面配图.png" alt="">
+			</div>
+			<div class="hobby-content-right">
+				<div class="foodword">
+					<span class="foodname">重庆小面</span>
+					<span>< 1 km</span>
+				</div>
+				<div class="foodword">
+					<span>【郑州市金水区李南二街345号】</span>
+				</div>
+				<div  class="foodword">
+					<span class="red">￥6.00元 </span>
+					<span>月销量：1202份</span>
+				</div>
+			</div>
+		</div>
+	<!-- 隐藏的图片部分 -->
+		
+		<div class="hobby-content foods">
+			<div class="hobby-content-left">
+				<img src="images/小面配图.png" alt="">
+			</div>
+			<div class="hobby-content-right">
+				<div class="foodword">
+					<span class="foodname">重庆小面</span>
+					<span>< 1 km</span>
+				</div>
+				<div class="foodword">
+					<span>【郑州市金水区李南二街345号】</span>
+				</div>
+				<div  class="foodword">
+					<span class="red">￥6.00元 </span>
+					<span>月销量：1202份</span>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="hobby-content foods">
+			<div class="hobby-content-left">
+				<img src="images/小面配图.png" alt="">
+			</div>
+			<div class="hobby-content-right">
+				<div class="foodword">
+					<span class="foodname">重庆小面</span>
+					<span>< 1 km</span>
+				</div>
+				<div class="foodword">
+					<span>【郑州市金水区李南二街345号】</span>
+				</div>
+				<div  class="foodword">
+					<span class="red">￥6.00元 </span>
+					<span>月销量：1202份</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="hobby-content foods">
+			<div class="hobby-content-left">
+				<img src="images/小面配图.png" alt="">
+			</div>
+			<div class="hobby-content-right">
+				<div class="foodword">
+					<span class="foodname">重庆小面</span>
+					<span>< 1 km</span>
+				</div>
+				<div class="foodword">
+					<span>【郑州市金水区李南二街345号】</span>
+				</div>
+				<div  class="foodword">
+					<span class="red">￥6.00元 </span>
+					<span>月销量：1202份</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="hobby-content foods">
+			<div class="hobby-content-left">
+				<img src="images/小面配图.png" alt="">
+			</div>
+			<div class="hobby-content-right">
+				<div class="foodword">
+					<span class="foodname">重庆小面</span>
+					<span>< 1 km</span>
+				</div>
+				<div class="foodword">
+					<span>【郑州市金水区李南二街345号】</span>
+				</div>
+				<div  class="foodword">
+					<span class="red">￥6.00元 </span>
+					<span>月销量：1202份</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="hobby-bottom">
+		<span class="dohidden">隐藏全部</span>
+		<span class="dodisplay">查看全部</span>
+		</div>
+	</div>
+
+	</section>
+	
+
+	<!-- -底部- -->
+	<footer>
+		<div id="footer">
+			<div class="footer-main">
+				<div class="footer-main-one">
+					<div class="icon">
+						<img src="images/HOME.png" alt="">
+					</div>
+				<span>商城首页</span>
+				</div>
+				<div class="footer-main-one">
+					<div class="icon">
+						<img src="images/合作配图.png" alt="">
+					</div>
+				<span>商家合作</span>
+				</div>
+				<div class="footer-main-one">
+					<div class="icon">
+						<img src="images/NOTEPAD.png" alt="">
+					</div>
+				<span>订单列表</span>
+				</div>
+				<div class="footer-main-one">
+					<div class="icon">
+						<img src="images/USER.png" alt="">
+					</div>
+				<span>会员中心</span>
+				</div>
+
+			</div>
+		</div>
+	
+	<div class="footblank">
+		
+	</div>
+	</footer>
+	<script src="js/index.js"></script>
+
+</body>
+</html>

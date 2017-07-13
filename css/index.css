@@ -1,0 +1,507 @@
+/*---------- 头部---------------- */
+body{
+	font-family:"黑体";
+}
+header{
+	width:6.4rem;
+	height:0.75rem;
+	background:#02a1fc;
+	position:fixed;
+	top:0;
+	z-index:999;
+	display:flex;
+}
+
+.header-main{
+	width:5.8rem;
+	height:0.5rem;
+	/* background:#f56; */
+	margin-left:0.3rem;
+	position:absolute;
+	top:0.13rem;
+	display:flex;
+}
+.header-main-left{
+	width:0.72rem;
+	height:0.4rem;
+	/* background:#fff; */
+	margin-top: 0.09rem;
+	float:left;
+}
+
+.left-select>span{
+	width:0.5rem;
+	height:0.4rem;
+	font-size:0.2rem;
+	text-align:center;
+	line-height:0.4rem;
+	color: #fff;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.02rem;
+}
+
+.left-select{
+	width:0.5rem;
+	height:0.4rem;
+}
+.left-ul{
+	list-style:none;
+	height:1.2rem;
+	overflow:auto;
+	margin-top:0.4rem;
+	display:none;
+}
+.left-ul li{
+	color: #fff;
+	background-color:#02a1fc;
+	font-size:0.18rem;
+}
+
+#arrowDown{
+	position: absolute;
+	left:0.5rem;
+	top:0.1rem;
+}
+
+#arrowTop{
+	position: absolute;
+	left:0.5rem;
+	top:0.07rem;
+	display:none;
+}
+
+
+.header-main-left img{
+	width:0.21rem;
+	height:0.21rem;
+	margin-top:0.07rem;/* 
+	margin-left:0.04rem; */
+}
+.header-main-middle{
+	width:3.94rem;
+	height:0.44rem;
+	/* background:#896; */
+	margin-left:0.36rem;
+	margin-top: 0.02rem;
+	display:flex;
+	position:relative;
+}
+.header-main-middle input{
+	width:3.94rem;
+	height:0.44rem;
+	background:#02a1fc;
+	border:1px #fff solid;
+	border-radius:0.08rem;
+	float:left;
+	text-indent:0.5rem;
+}
+.header-main-middle input::-webkit-input-placeholder{
+	color:#fff;
+	font-size:0.24rem;
+	line-height:0.44rem;
+	
+}
+.header-main-middle img{
+	width:0.39rem;
+	height:0.31rem;
+	position:absolute;
+	top:0.06rem;
+	left: 0.1rem;
+}
+
+.header-main-right{
+	width:0.41rem;
+	height:0.41rem;
+	/* background:#236; */
+	margin-left:0.37rem;
+	margin-top:0.05rem;
+}
+.header-main-right img{
+	width:0.41rem;
+	height:0.41rem;
+}
+/* -------------轮播图部分---------- */
+.swiper-container{
+	width: auto;
+	height:2.0rem;
+	margin-top:0.75rem;
+}
+
+.swiper-slide img{
+	width: 6.4rem;
+	height:2.0rem;
+}
+
+/* ---------------菜单选项部分----------- */
+.menu{
+	width:6.4rem;
+	height:3.37rem;
+	position:relative;
+}
+
+.menusub p{
+	text-align:center;
+	font-size:0.20rem;
+}
+.menusub img{
+	width:0.82rem;
+	height:0.82rem;
+}
+
+.menu-two img{
+	width:1.02rem;
+}
+
+/* 使用绝对定位通过top和left定位 */
+.menu-one,.menu-two,.menu-three,.menu-four,.menu-five,.menu-six,.menu-seven,.menu-eight{
+	position:absolute;
+	top:0.27rem;
+}
+.menu-one{
+	left:0.55rem;
+}
+.menu-two{
+	left:2.05rem;
+}
+.menu-three{
+	left:3.55rem;
+}
+.menu-four{
+	left:5.05rem;
+}
+.menu-five{
+	top:1.69rem;
+	left:0.55rem;
+}
+.menu-six{
+	top:1.69rem;
+	left:2.05rem;
+}
+.menu-seven{
+	top:1.69rem;
+	left:3.55rem;
+}
+.menu-eight{
+	top:1.69rem;
+	left:5.05rem;
+}
+
+
+.hotel{
+	position:absolute;
+	left:0.2rem;
+}
+
+
+
+/* --------免费体验区---------- */
+.content_warp{
+	width:6.4rem;
+	height:4.25rem;
+	/* background:#f56; */
+	position:relative;
+}
+.content_warp-bar{
+	width:5.8rem;
+	height:0.3rem;
+	/* background:#893; */
+	position:absolute;
+	margin-top:0.27rem;
+	margin-left: 0.33rem;
+}
+.content_warp-bar span{
+	width:0.04rem;
+	height:0.21rem;
+	background:#0c97f8;
+	position:absolute;
+	top:0.045rem;
+}
+.content_warp-bar span{
+	width:0.04rem;
+	height:0.23rem;
+}
+.content_warp div{
+	font-size:0.18rem;
+}
+/* 使用浮动为图标排序 */
+.content_warp-bar-one,.content_warp-bar-two,.content_warp-bar-three{
+	float:left;
+	font-size:0.18rem;
+}
+.content_warp-bar-one{
+	margin-left:0.04rem;
+	margin-right:1rem;
+}
+
+.content_warp-bar-two,.content_time{
+	position:absolute;
+	left:1.8rem;
+}
+.content_warp-bar-three{
+	position:absolute;
+	left:2.9rem;
+}
+.content_time{
+	margin-right:1rem;
+	left:2.9rem;
+}
+.content_warp-bar-four{
+	font-size:0.18rem;
+	position:absolute;
+	right:0.1rem;
+}
+.content_warp-img {
+	width:6.4rem;
+	height:3.1rem;
+	/* background:#966; */
+	position:absolute;
+	top:0.8rem;
+}
+
+.content_warp-img img{
+	width:1.31rem;
+	height:1.11rem;
+}
+
+.content_warp-img-one,.content_warp-img-two,.content_warp-img-three,.content_warp-img-four{
+	float:left;
+	margin-left:0.19rem;
+}
+.content_warp-img-one{
+	margin-left:0.3rem;
+}
+
+
+
+/* 玖邦尼创富-------------------- */
+.content_main{
+	width:6.4rem;
+	height:3.95rem;
+	/* background:#895562; */
+	position:relative;
+	display:flex;
+}
+
+.content_main-bar{
+	width:5.8rem;
+	height:0.3rem;
+	position:absolute;
+	margin-top:0.27rem;
+	margin-left: 0.33rem;
+	display:flex;
+}
+
+.content_main-bar span{
+	width:0.04rem;
+	height:0.21rem;
+	background:#0c97f8;
+	position:absolute;
+	top:0.11rem;
+}
+.content_main-img {
+	width:6.4rem;
+	height:3.1rem;
+	position:absolute;
+	top:0.8rem;
+}
+
+.content_main-bar-one{
+	float:left;
+	font-size:0.18rem;
+	margin-top: 0.06rem;
+	justify-content:space-around;
+	align-items:center;
+	position:absolute;
+	left:0.05rem;
+}
+.content_main-bar-two{
+	display:flex;
+	font-size:0.14rem;
+	/* width:2.1rem; */
+	/* height:0.2rem; */
+	/* background:#666; */
+	position:absolute;
+	top:0.06rem;
+	left:1.8rem;
+}
+.content_main-bar-three{
+	font-size:0.18rem;
+	margin-top:0.04rem;
+	margin-left:0.7rem;
+	font-size:0.16rem;
+	position:absolute;
+	right:0.1rem;
+}
+
+.content_main-img img{
+	width:1.4rem;
+	height:1.34rem;
+}
+.content_main-img-one,.content_main-img-two,.content_main-img-three,.content_main-img-four{
+	float:left;
+	margin-left: 0.04rem;
+}
+.content_main-img-one{
+	margin-left:0.3rem;
+}
+
+
+/*---------- 猜你喜欢--------------------- */
+/*---------- 猜你喜欢--------------------- */
+/*---------- 猜你喜欢--------------------- */
+/*---------- 猜你喜欢--------------------- */
+/*---------- 猜你喜欢--------------------- */
+.hobby{
+	width:6.4rem;
+	height:6.45rem;
+	/* background:#f47; */
+	margin-bottom:0.75rem;
+}
+.hobby-bar{
+	width:5.8rem;
+	height:0.7rem;
+	background:#fff;
+	margin:0 auto;
+	border-bottom:1px #ccc solid;
+	display:flex;
+	position:relative;
+}
+.hobby-bar-img{
+	width:0.04rem;
+	height:0.21rem;
+	background:#0c97f8;
+	position:absolute;
+	top:0.45rem;
+}
+
+.hobby-bar-wordone{
+	float:left;
+	font-size:0.22rem;
+	margin-left:0.21rem;
+	margin-top:0.38rem;
+}
+
+.hobby-bar-wordtwo{
+	position:absolute;
+	right:0.3rem;
+	font-size:0.20rem;
+	margin-top:0.38rem;
+}
+
+
+.hobby img{
+	width:2.0rem;
+	height:1.35rem;
+}
+
+/* 弹性盒子 */
+
+
+/* 大盒子套两个小盒子 */
+.hobby-content{
+	width:5.8rem;
+	height:1.7rem;
+	border-bottom:1px solid #ccc;
+	margin:0 auto;
+	background:#fff;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+/* 左边的盒子存放图片 */
+.hobby-content-left{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+/* 右边盒子体积 */
+.hobby-content-right{
+	margin-top:0.1rem;
+	width:3.65rem;
+	height:1.35rem;
+}
+
+/* 将span转换为行内块元素 */
+.hobby-content span{
+	display:inline-block;
+}
+
+/* 右边盒子存放三个小盒子 */
+.foodword{
+	width:3.65rem;
+	height:0.45rem;
+	line-height:0.45rem;
+	font-size:0.15rem;
+	display:flex;
+	justify-content:space-between;
+}
+
+.foodname,.red{
+	font-size:0.2rem;
+}
+.red{
+	color:red;
+}
+.hobby-bottom{
+	width:5.8rem;
+	height:0.6rem;
+	margin:0 auto;
+	/* background:#999; */
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.hobby-bottom{
+	margin-bottom:0.75rem;
+}
+/* .footblank{
+	display:flex;
+	margin-bottom:0.75rem;
+}
+
+ */
+/* -------------底部------------- */
+footer{
+	width:6.4rem;
+	height:0.75rem;
+	background:#02a1fc;
+	position:fixed;
+	bottom: 0;
+	z-index:999;
+}
+.footer-main img{
+	width:0.4rem;
+	height:0.4rem;
+}
+.footer-main-one{
+	width:0.85rem;
+	height:0.8rem;
+	/* background:cyan; */
+	float:left ;
+	margin-left:0.6rem;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.icon{
+	display:inline-block;
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	top: 0.06rem;
+}
+
+
+
+.footer-main-one span{
+	display:inline-block;
+	position:absolute;
+	font-size:0.18rem;
+	bottom: 0.02rem;
+	color:#fff;
+}
